@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--using bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+   
+    <link rel="RR2R Home Page" href="/index.html">
+    <link rel="RR2R Profile Page" href="/Profile.html">
+    <link rel="RR2R Profile Page" href="ReimExmpl.html">
+    <link rel="stylesheet" href="PJ1Styles.css">
+    <script src="Pj1JS.js"></script>
+
+    <title>RR2R360 Login Page</title>
+    <style>
+        li{
+            width: 740px;/*Control the list/flag length */
+        }
+    </style>
+</head>
+
+<body class ="allTextWht">
+
+    <h1 class = "h1Header "><div id="Three60RtrnLogo">.</div>
+        Welcome To</br><span class="h1drtxt">RevReady2Reimburse 360</span></br><p class="xxsmlltxt" style="float:left; padding-top: 2px">Login page</p>
+    </h1>
+                <hr></br>
+
+     <span style = "position: relative;left: 25px"; >
+        <a href="index.html"; class="bg-warning "; style="border: 2px solid black"; ><--Home Pg.</a>
+     </span>
+        
+            <div style = " position: relative; left: 25px; "; id="lgnUsrLiBg">
+                <div class="border bg-secondary usrNmToSbmBtnBn padding-left:2px"; > <!--Enetr User name to submit button---> 
+                   
+                    <div  style="width: 171px; left: 10px; height:50px"> <!--div[1]>forms>div[1]-->
+                        <label  for="username" text-font = "bold" > Enter username</label>                 
+                    </br>
+                        <input  type="text" id="username" name ="username" placeholder="user name here"/>
+                    </div>
+                    </br>
+                    
+                    <div > <!--div[1],2-->
+                        <label for="password" text-font = "bold">Password</label>
+                        </br>
+                        <input type="text" id="password"name ="password" placeholder="password here"/>
+                    </div >  
+                        </br>
+                    <div>
+                        <h5>Staff Type</h5>
+                                
+                                 <label for="emp_type_Mn" text-font = "bold">Employee</label>
+                                 <input type="radio" id="empRadioSel"name ="emp_type"/></br>
+                                 <label for="emp_type_Mn" text-font = "bold">Manager</label>
+                                 <input type="radio" id="mngRadioSel"name ="emp_type"/></br>
+                                
+                                <button type="submit"; onclick="buttonClicked(),window.location.href='Profile.html'"; class=" btn btn-primary btn-success border-danger">Submit</button></br>
+                                <div  id="vwBttnDiv" >
+                                 </br>
+                                    <label for="example"; text-font = "bold"; style="font-family:cursive; color:rgb(63, 54, 2)"> View example reimbursment:</label>
+                                    <div style ="border: 6px solid black; width: 72px;">
+                                        <button name="example"; type="submit"; onclick="exmplbuttonClicked()"; class=" btn btn-secondary  border-danger">
+                                            <a href="ReimExmpl.html">View</a>
+                                        </button>
+                                    </div> 
+                                </div>  
+
+                    </div>  
+                </br>
+                 
+                </div>
+                
+                <div id ="fltrght"; class = "vertical" style =" position: relative; right: 15px; padding-top : 10px" ><!----add inline style-->
+                    <div class="lgnRmndrdiv";   >
+
+                        <h4  style="text-align: center;  border-bottom: 3px solid black" class="text-warning bg-secondary "> ****Reminders**** </h4>
+                            <div >
+                                
+                                    <div class=" rounded-top"; >
+                                        <ul   style=" border: 1px solid black; padding-left: 5px; padding-top: 10px; padding-left: 25px;" class ="liDvBgnbrdrClr";  >
+                                            <li id="lgnLiAltClrRd">|***********Please allow for up to two weeks for processing</li>
+                                            <li id="lgnLiAltClrBl">|***********Save all reciepts and transactions pertaining to reimburements</li>
+                                            <li id="lgnLiAltClrRd">|***********Please remember to file reciepts both physically and electronically</li>
+                                            <li id="lgnLiAltClrBl">|***********Have alternate account information is deposited into account other than on file</li>
+                                            <li id="lgnLiAltClrRd">|***********Please besure that all PPI inforamtion submited is the same as in your oraganization files</li> </br>
+                                        </ul>
+
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div> 
+</body>
+
+</html>

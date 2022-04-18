@@ -1,0 +1,192 @@
+/* ************In multiple pages or can be in multiple pages*************/
+body {/*all*/
+    background-color:rgb(91, 190, 99);
+    border:rgb(241, 235, 235);
+    color: white;
+}
+.leftMarginPadding{
+
+padding-left: 8px;
+}
+.allTextWht{
+    color: white;
+}
+
+/*Headers*/
+h1{
+    border: 3px solid black;
+    }
+
+.h1Header{
+    background-color:rgb(21, 143, 31);
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif; 
+    border:3px solid black;
+}
+.h1drtxt{
+    background-color:greenyellow; color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid  goldenrod;
+ }
+
+ #Three60RtrnLogo {
+    background-image: url('PJ1 Pictures/Three60ReturnRiem65.png');
+}
+ /*prflTblBrdr { 
+
+}*/
+.txt-dcrUndLn{
+    text-decoration: underline;
+}
+
+.xxsmlltxt{
+    font-size: xx-small;
+ }
+
+th, tr,td{
+    border: 3px solid black;
+    background-color: rgb(39, 102, 58);
+}
+#whtsmkClr{ 
+    color:whitesmoke
+}
+.prfDiv1{
+    border: 3px solid rgb(5, 70, 8);
+    right: 550px;
+}
+li{
+    text-decoration:underline ; 
+       
+}
+
+.liDvBgnbrdrClr{
+    background: rgb(166, 210, 248); 
+    border: 1px solid black;
+    transition: transform .2s;
+    width: 800px; 
+}
+.liDvBgnbrdrClr:hover{
+    transform: scale(1.1);
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: yellow;
+}
+ /* ***************************************************************************************/
+
+/* ***************************  Login page ************************************/
+.vertical {
+    border-radius: 3px solid white;
+    height: 250px;
+    position:relative;
+    top: -50px;
+    left: 0%;
+    float: right;
+    background-image: url("PJ1 Pictures/FrntBck100.jpg"); 
+}
+
+.usrNmToSbmBtnBn {
+    width: 225px;
+    height: 300px;
+    left: 20px;
+    padding-left:15px;
+    border-right: 2px solid black;/*Not working*/
+    
+  }
+
+.lgnRmndrdiv{
+    
+    position: relative;
+    right: 30px;
+    top: -250px;
+    border: 2px solid rgb(4, 100, 44);
+    background-color:greenyellow ;
+}
+
+#lgnLiAltClrBl{
+    background-color:rgb(3, 52, 80);
+}
+
+#lgnLiAltClrRd{
+    background-color:rgb(221, 23, 9);
+}
+
+#lgnUsrLiBg{
+    outline-color: cyan;
+    border: 5px solid rgb(2, 70, 30);
+    background-color:rgb(166, 210, 248);
+   
+}
+#lgnBrdrLi{
+    border: 2px solid black;
+
+}
+#vwBttnDiv{
+    border: 6px solid rgb(3, 59, 13); 
+    width: 150px; 
+    height:180px; 
+    position:relative; 
+    top: 9px; left:-19px; padding-left:15px;
+    background-color:rgb(195, 223, 248) ;
+}
+/* **************************************************************************************/
+
+/* **************************   Profile pg   *********************************/
+.prfTblexample1{
+    top: 173px;
+}
+/* *************************************************************************************/
+/* **************************   Index pg   *********************************/
+.hmLgnBtn{
+    text-align:center ;
+    border-radius: 3px solid white;
+    height: 108px;
+    width:400px;
+    position:relative;
+    top: 171px;
+    right: 147px;
+    float: right;
+    border: 2px solid rgb(45, 46, 3);
+    background-color:greenyellow ;
+}
+.hmLgnSpc{
+    background-color:rgb(17, 138, 38);
+    border-top: 2px solid black; 
+    border-right: 3px solid black; 
+    border-left: 3px solid black; 
+    top: 100px;
+    }
+    .bckgrnd-img-money{ 
+        background-image: url('PJ1 Pictures/FrntBck100.jpg');
+        border:rgb(235, 238, 82);  
+    }
+    #btmright{
+        background-color:rgb(62, 140, 185); 
+        position: fixed; right: 1px; bottom: 1px;
+        color: black;
+        font-size: xx-small;
+    }
+/* *******************  Reimburstment Table Example  pg  *****************/
+.empVwTbl{/*not yet added*/ 
+    background-color:greenyellow; 
+    font-family: 'Times New Roman', Times, serif
+ }
+
+ .rmExmTblHdr{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    background-color:rgb(7, 77, 26);
+    left: 250px;
+    border: 3px solid green;
+  
+   }
