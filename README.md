@@ -29,3 +29,35 @@ use mocking when applicable
 There should be logging in the application
 All user stories and acceptance criteria must be written out
 completed E2E tests using gherkin and selnium for all user stories.
+
+Technologies Used
+
+Maven v1.8
+Git v2.35.1
+Amazon Web Services
+Postman v8.5.0
+Visual Studio Code IDE v1.66.2
+Html5
+JavaScript vES6
+Cascading Style Sheets 
+Node.js v16.13.0
+Spring Tool Suite IDE v4.13.1
+ Java v8 & (Java Data Base Connectivity)
+Javalin v4.3.0
+Cucumber v7.2.3
+Selenium v4.1.3
+J-unit v5.8.2
+DBeaver IDE v22.0.3
+Postgres Structured Query Language
+
+Features Ready and TODOS
+
+Employees can submit reimbursements 
+Employees can view past and pending reimbursements
+Managers can approve or deny reimbusrements 
+
+
+TODOS
+
+Convert into True REST API
+Mnagers can view a 'statistics' page for insight into spending habits or costs involved
